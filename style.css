@@ -1,0 +1,23 @@
+#area1 {
+	background-color: #70CCE1;
+	color: white;
+	overflow-x:auto;
+	border-collapse:collapse;
+}
+
+#area2{
+	color:#70CCE1; 
+}
+
+b {
+	color:#00809D;
+}
+
+img{
+	float: left;
+}
+
+.style1{
+	border-radius: 50%;
+	float:left;
+}

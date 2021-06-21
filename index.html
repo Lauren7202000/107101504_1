@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is the title</title>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="area1">
+			<br>
+			<img class="style1" src="photo.jpg" alt="photo" width="150" height="150">
+			<h1>Lauren Chen</h1>
+			<p>phone: 0975-654321
+			<br>email: 321321@gmail.com</p>
+			<br>
+		</div>
+		<div>			
+			<h3 id="area2">EDUCATION</h3>
+			<p>國立中央大學 (2018-2022)<br>
+			主修 <b>經濟學系</b> | 輔修 <b>資訊管理學系</b> 
+			</p>
+			<h3 id="area2">SKILL</h3>
+			<p>Analysis | Excel, R, Stata, PowerBI</p>
+			<p>Programming | C, Java, Python, SQL</p>
+
+			<h3 id="area2">EXPERIENCE</h3>
+			<img src="image2.png" alt= "icon" width="100" height="30"><h4>Sponya  |  2021/2-2021/6<br><b>校園大使</b></h4>
+			<ul>
+				<li>設計及執行將Sponya品牌推廣至校園之行銷專案計畫</li>
+				<li>同時與5間社團協商活動合作之事宜</li>
+			</ul>
+			
+			<h4>2021 19th ATCC全國大專院校商業個案大賽 | <b>初賽決選</b></h4>
+			<ul>
+				<li>曾現場與家樂福主管進行企劃提案，並根據企業及上下游需求修正完成提案企劃</li>
+				<li>以食物浪費主題出發，提出月餅食惜生計劃以及一連串行銷提案</li>
+			</ul>
+			
+			<h4>2021 Shopee Ultimate Case Challenge</h4>
+			<ul>
+				<li>針對蝦皮直播平台規劃一年期之行銷推廣計畫</li>
+			</ul>
+			
+			<h4>2020玉山銀行金融科技校園商業競賽 </h4>
+			<ul>
+				<li>針對年輕族群使用數位金融服務之痛點提出企劃案</li>
+			</ul>
+			
+			<h4>國立中央大學經濟學推廣計畫  |  2019/06-2020/12<br><b>行銷公關組</b></h4>
+			<ul>
+				<li>在寒假及暑假針對高中老師及學生分別舉辦72人的經濟營隊，並於營隊中擔任講師</li>
+				<li>每學期間舉辦多達200人的高中生經濟營隊</li>
+				<li>於清水高中250人以上之招生活動擔任講者</li>
+			</ul>
+			<h3 id="area2">Contect me</h3>
+				<label>Email</label>
+				<input type="text" name="email" value="" size="24"><br><br>
+				<label>Content</label>
+				<input type="text" name="content" value="" size="24">
+				<br>
+				<br>
+				<input id="btn" type="button" value="submit"/>
+			<hr>
+			
+			<button onclick="window.print()">print resume</button>
+		</div>
+		<script>
+			document.getElementById('btn').onclick=function(){
+				alert('訊息已送出！');
+			}
+		</script>
+	</body>
+</html>
